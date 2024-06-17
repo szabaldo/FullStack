@@ -124,3 +124,11 @@ img{
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
 }
+
+.round {
+    border-radius: 10rem !important;
+}
+
+.round-top {
+    border-radius: 10rem 10rem 0rem 0rem !important;
+}
