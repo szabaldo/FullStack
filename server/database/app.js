@@ -17,6 +17,7 @@ mongoose.connect("mongodb://mongo_db:27017/",{'dbName':'dealershipsDB'});
 const Reviews = require('./review');
 
 const Dealerships = require('./dealership');
+const { exit } = require('process');
 
 try {
   Reviews.deleteMany({}).then(()=>{
